@@ -1,6 +1,6 @@
 import mysql from "mysql";
 import DBConfig from "../config/dbConfig.js";
-import * as StringUtil from "../utils/stringUtil.js";
+import * as StringUtil from "./stringUtil.js";
 
 const connection = mysql.createConnection(DBConfig);
 const SELECT_TEMPLATE = "SELECT * FROM";
