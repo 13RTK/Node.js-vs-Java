@@ -19,6 +19,8 @@ body {
 .form-lable {
     font-size: 30px;
     color: rgb(134, 141, 14);
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .form input {

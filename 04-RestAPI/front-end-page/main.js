@@ -3,7 +3,7 @@ const elePassword = document.querySelector(".password");
 const eleNumber = document.querySelector(".number");
 const btnSubmit = document.querySelector(".submit-btn");
 
-const port = 8080;
+const port = 3000;
 const method = "POST";
 
 const submitUser = async (event) => {
