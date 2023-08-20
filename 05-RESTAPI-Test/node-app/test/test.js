@@ -5,7 +5,7 @@ import assert from "assert";
 
 const response = await request(app).get("/user/23");
 
-assert.equal(response.status, 200);
-assert.equal(response.body.data, "User: 22");
+assert.strictEqual(response.status, 200);
+assert.strictEqual(response.body.data, "User: 23");
 expect(response.status).toBe(200);
 expect(response.body.data).toBe("User: 23");
